@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.success-message {
+  background-color: #4caf50; /* Green */
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+  position: fixed; /* Make it fixed to the top */
+  top: 20px; /* Position it at the top */
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+  z-index: 1000; /* Make sure it appears above other content */
+}
+
